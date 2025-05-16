@@ -1,0 +1,14 @@
+[project]
+name = "using-aws-amazon-s3"
+version = "0.1.0"
+description = "Aqui vamos aprender a usar Amazon S3. Implementaremos vários exemplos para entender esse serviço de armazenamento"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.38.17",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
